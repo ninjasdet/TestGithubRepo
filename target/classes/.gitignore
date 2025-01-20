@@ -1,1 +1,5 @@
-/META-INF/
+# Ignore everything in target/
+target/
+
+# But track this specific file
+!target/classes/META-INF/maven/TestGit/TestGit/pom.properties
